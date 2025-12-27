@@ -24,7 +24,7 @@ class WebsiteAppearance extends Page implements HasForms
     protected static ?string $navigationGroup = 'Settings';
     protected static ?int $navigationSort = 95;
 
-    protected static string $view = 'filament.pages.website-appearance';
+    protected static string $view = 'webwizr-admin::filament.pages.website-appearance';
 
     public ?array $data = [];
 

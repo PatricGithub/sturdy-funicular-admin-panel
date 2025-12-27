@@ -23,7 +23,7 @@ class FeatureSettings extends Page implements HasForms
     protected static ?string $navigationGroup = 'Settings';
     protected static ?int $navigationSort = 96;
 
-    protected static string $view = 'filament.pages.feature-settings';
+    protected static string $view = 'webwizr-admin::filament.pages.feature-settings';
 
     public ?array $data = [];
 

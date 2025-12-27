@@ -22,7 +22,7 @@ class Functionality extends Page implements HasForms
     protected static ?string $title = 'Feature Settings';
     protected static bool $shouldRegisterNavigation = false;
 
-    protected static string $view = 'filament.pages.functionality';
+    protected static string $view = 'webwizr-admin::filament.pages.functionality';
 
     public ?array $popupData = [];
     public ?array $phoneData = [];

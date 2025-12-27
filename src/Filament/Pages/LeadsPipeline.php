@@ -12,7 +12,7 @@ class LeadsPipeline extends Page
 {
     protected static ?string $navigationIcon = 'heroicon-o-view-columns';
 
-    protected static string $view = 'filament.pages.leads-pipeline';
+    protected static string $view = 'webwizr-admin::filament.pages.leads-pipeline';
 
     protected static ?int $navigationSort = -2;
 
