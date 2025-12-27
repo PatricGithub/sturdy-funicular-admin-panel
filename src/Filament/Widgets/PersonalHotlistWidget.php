@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Auth;
 
 class PersonalHotlistWidget extends Widget
 {
-    protected static string $view = 'filament.widgets.personal-hotlist';
+    protected static string $view = 'webwizr-admin::filament.widgets.personal-hotlist';
 
     protected int | string | array $columnSpan = 'full';
 
