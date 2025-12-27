@@ -1,0 +1,42 @@
+{
+    "name": "webwizr/admin-panel",
+    "description": "WebWizr shared Filament admin panel for Laravel projects",
+    "type": "library",
+    "license": "proprietary",
+    "keywords": [
+        "laravel",
+        "filament",
+        "admin-panel",
+        "webwizr"
+    ],
+    "authors": [
+        {
+            "name": "WebWizr",
+            "email": "admin@webwizr.eu"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "filament/filament": "^3.0",
+        "intervention/image-laravel": "^1.0",
+        "laravel/framework": "^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebWizr\\AdminPanel\\": "src/",
+            "WebWizr\\AdminPanel\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WebWizr\\AdminPanel\\AdminPanelServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
